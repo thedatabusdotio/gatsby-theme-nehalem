@@ -13,6 +13,7 @@ import Bio from "../components/bio";
 import Comments from "../components/comments";
 import SEO from "../components/seo";
 import {FaAlignJustify, FaTimes} from "react-icons/fa";
+import "katex/dist/katex.min.css";
 
 interface PostTemplateProps {
   data: {

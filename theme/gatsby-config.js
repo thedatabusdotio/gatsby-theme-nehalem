@@ -2,8 +2,8 @@ module.exports = (themeOptions) => {
   const loadDefaultPages = themeOptions.loadDefaultPages !== undefined ? themeOptions.loadDefaultPages : true;
   const contentPath      = themeOptions.contentPath || 'content';
   const manifest         = themeOptions.manifest ? themeOptions.manifest : {
-    name: `nehalem - A Gatsby theme`,
-    short_name: `nehalem`,
+    name: `blacksparrow - A Gatsby theme`,
+    short_name: `blacksparrow`,
     start_url: `/`,
     background_color: `#a4cbb8`,
     theme_color: `#a4cbb8`,
@@ -13,8 +13,8 @@ module.exports = (themeOptions) => {
 
   return {
     siteMetadata: {
-      title: `nehalem`,
-      siteUrl: `https://nehalem.netlify.com`,
+      title: `blacksparrow`,
+      siteUrl: `https://blacksparrow.netlify.com`,
       description: `A Gatsby theme for %TOPICS%`,
       topics: [
         `bloggers`,
@@ -45,10 +45,10 @@ module.exports = (themeOptions) => {
       ],
       search: true,
       author: {
-        name: `nehalem`,
-        description: `I'm <strong>nehalem</strong>, a Gatsby theme by 
+        name: `blacksparrow`,
+        description: `I'm <strong>blacksparrow</strong>, a Gatsby theme by 
         <a href="https://nehalist.io" rel="noopener" target="_blank">nehalist.io</a>. If you like what you see feel free to give a 
-        <a href="https://github.com/nehalist/gatsby-theme-nehalem" rel="noopener" target="_blank">star on GitHub!</a>`,
+        <a href="https://github.com/nehalist/gatsby-theme-blacksparrow" rel="noopener" target="_blank">star on GitHub!</a>`,
         social: {
           facebook: ``,
           twitter: `https://twitter.com/nehalist`,
@@ -122,6 +122,7 @@ module.exports = (themeOptions) => {
         options: {
           plugins: [
             `gatsby-remark-autolink-headers`,
+            `gatsby-remark-katex`,
             `gatsby-remark-prismjs`,
             {
               resolve: `gatsby-remark-images`,
