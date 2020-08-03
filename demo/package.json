@@ -13,7 +13,6 @@
   },
   "dependencies": {
     "@blacksparrow/gatsby-theme-blacksparrow": "^1.1.1",
-    "@nehalist/gatsby-theme-nehalem": "*",
     "gatsby": "^2.13.1",
     "react": "^16.8.6",
     "react-carbon": "^1.0.7",

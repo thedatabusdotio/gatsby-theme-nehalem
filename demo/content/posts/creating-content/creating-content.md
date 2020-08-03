@@ -8,6 +8,9 @@ created: 2019-07-21
 updated: 2019-07-21
 ---
 
+$a^2 + b^2 = c^(IWL)$
+
+
 Content in Nehalem is served by the [gatsby-transformer-remark](https://www.gatsbyjs.org/packages/gatsby-transformer-remark/) plugin. But to 
 create content it's not necessary to deal with GraphQL queries and instead create simple markdown files.
 
